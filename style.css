@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-color: #6DA5CD;
+}
+nav{
+ background-color: #072E33;  
+ color: #6DA5CD;
+ text-align: center;
+}
+.nav{
+    font-size: 2em;
+}
+.bulb{
+position: absolute;
+top: 5px;
+right: 2em;
+}
+.bulb img{
+    width: 3em;
+}
+.parent{
+display: flex;    
+justify-content: center;
+align-items: center;
+margin-top: 85px;
+margin-bottom: 76px;
+}
+.child{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 400px;
+    height: 400px;
+}
+.grid{
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    background-color: #06142E;
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.footer{
+    background-color: #072E33;
+    color: #6DA5CD;
+    text-align: center;
+    font-size: 1em;
+}
+#id1{
+border-width: 0px 4px 4px 0px ;
+}
+#id2{
+border-width: 0px 4px 4px 0px ;
+}
+#id3{
+border-width: 0px 0px 4px 0px ;
+}
+#id4{
+border-width: 0px 4px 4px 0px ;
+}
+#id5{
+border-width: 0px 4px 4px 0px ;
+}
+#id6{
+border-width: 0px 0px 4px 0px ;
+}
+#id7{
+border-width: 0px 4px 0px 0px ;
+}
+#id8{
+border-width: 0px 4px 0px 0px ;
+}
+#id9{
+border-width: 0px 0px 0px 0px ;
+}
